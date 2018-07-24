@@ -1,0 +1,40 @@
+.block{
+width: 500px;
+height: 500px;
+box-sizing: border-box;
+display: flex;
+flex-flow: column wrap;
+flex-direction: column;
+  
+
+
+}
+
+.btnGenerar{
+  width: auto;
+  height: 21px;
+  vertical-align: bottom;
+}
+
+.column{
+  width: 500px;
+  height: 500px;
+  border-style: groove;
+    box-sizing: border-box;
+  max-height: inherit;
+  max-width: inherit;
+}
+
+.column:last-child{
+  order: 1;
+}
+
+.unidad{
+  width: 500px;
+  height: 50px;
+  background-color: red;
+  
+ 
+  
+}
+
